@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<title>The Halloween Store</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel = "stylesheet" href = "styles/email.css">
+	</head>
+	
+	<body>
+		<header>
+			<img src="images/pumpkin.png" alt = "Pumpkim Image" width = "90">
+			<h2>The Halloween Store</h2>
+			<h3>For the little Goblin in all of us!</h3>
+		</header>
+		
+		
+	<div id="navMenu">
+		
+		<ul>
+			<li><a href="index.html">Home</a>
+				
+			</li>
+		</ul>
+		
+		<ul>
+			<li><a href="product/products.html">Product List</a>
+				<ul>
+					
+				</ul>
+			</li>
+		</ul>
+		
+		<ul>
+			<li><a href="#">Personal</a>
+				<ul>
+					<li><a href="http://www.google.com/">Edit Information</a></li>
+				</ul>
+			</li>
+		</ul>
+		
+		<ul>
+			<li><a href="#">Decorating Ideas</a>
+				<ul>
+					<li><a href="http://www.google.com/">Outdoor</a></li>
+					<li><a href="http://www.google.com/">Indoor</a></li>
+					<li><a href="http://www.google.com/">Table</a></li>
+					<li><a href="http://www.google.com/">Treats</a></li>
+				</ul>
+			</li>
+		</ul>
+		
+		<ul>
+			<li><a href="email.html"><font color="orange">Join Email</font></a>
+				
+			</li>
+		</ul>
+		
+		<br class="clearFloat"/>
+		
+	</div>
+		
+		
+		
+		<aside>
+			<ul>
+				<li><a href = "http://www.google.com/"> Props </a></li>
+				<li><a href = "http://www.google.com/"> Costumes </a></li>
+				<li><a href = "http://www.google.com/"> Special FX </a></li>
+				<li><a href = "http://www.google.com/"> Masks </a></li>
+			</ul>
+		</aside>
+		
+		<section>
+			<form name="email_form" action="subscribe.html" method="post">
+				<h2>Please enter the following information:</h2>
+				<label for="firstname">Firstname:</label>
+				<input type="text" name="firstname" id="firstname" autofocus required><br>
+				<label for="lastname">Lastname:</label>
+				<input type="text" name="lastname" id="lasttname" required><br>
+				<label for="lastname">Email:</label>
+				<input type="text" name="email" id="email" required><br>
+				<label for="zip">Zip code:</label>
+				<input type="text" name="zip" id="zip" required 
+				pattern="\d{5}([\-]\d{4})?"
+				title= "Must be 99999 or 99999-9999"
+				placeholder="Optional but appreciated: 99999"><br>
+			
+				<input type="submit" name="subscribe" id="buttom" value="Subscribe">
+			</form>
+			
+		</section>
+		
+		<footer>
+			<p>&copy; 2015 JungHwan Park </p>
+		</footer>
+	</body>
+</html>
